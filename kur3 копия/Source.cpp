@@ -12,6 +12,9 @@
 using namespace std;
 void main() {
 	setlocale(LC_ALL, "Russian");
+	cout << "Алфавит" << endl;
+	for (int i = 32; i < 127; i++) { cout << char(i) << " "; }
+	cout << endl;
 	//string key = "abcd";
 	//string text = "exp(A+2)*C=?";
 	int* K1{ new int[256] };
