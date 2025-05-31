@@ -39,7 +39,7 @@ void main() {
 
 
 	while (true) {
-		cout << "Введите ключ" << endl;
+		cout << "Введите ключ(без пробелов)" << endl;
 		cin >> key_tr;
 		if (!cheak_key(key_tr)) { cout << "недопустимый ключ" << endl; }
 		else { break; }
